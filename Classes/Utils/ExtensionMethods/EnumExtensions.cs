@@ -5,9 +5,9 @@ using System.Reflection;
 
 namespace BerlinClock.Classes.Utils.ExtensionMethods
 {
-    public static class EnumExtensions
+    internal static class EnumExtensions
     {
-        public static string GetDescription(this Enum myEnum)
+        internal static string GetDescription(this Enum myEnum)
         {
             if (myEnum == null)
                 return null;

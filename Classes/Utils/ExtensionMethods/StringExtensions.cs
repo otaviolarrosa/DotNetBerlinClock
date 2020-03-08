@@ -2,14 +2,14 @@
 
 namespace BerlinClock.Classes.Utils.ExtensionMethods
 {
-    public static class StringExtensions
+    internal static class StringExtensions
     {
-        public static string GetPartOfString(this string str, char separator, int index)
+        internal static string GetPartOfString(this string str, char separator, int index)
         {
             return str.Split(separator)[index];
         }
 
-        public static int ToInt32(this string str)
+        internal static int ToInt32(this string str)
         {
             return Convert.ToInt32(str);
         }
