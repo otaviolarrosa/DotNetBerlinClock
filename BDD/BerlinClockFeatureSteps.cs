@@ -1,7 +1,6 @@
-﻿using System;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
+using BerlinClock.Interfaces;
 
 namespace BerlinClock
 {
@@ -9,7 +8,7 @@ namespace BerlinClock
     public class TheBerlinClockSteps
     {
         private ITimeConverter berlinClock = new TimeConverter();
-        private String theTime;
+        private string theTime;
 
         
         [When(@"the time is ""(.*)""")]
