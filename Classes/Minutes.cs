@@ -1,6 +1,7 @@
 ﻿using BerlinClock.Classes.Interfaces;
-using BerlinClock.Classes.Utils;
+using BerlinClock.Classes.Utils.BerlinClockHelpers;
 using System.Text;
+using BerlinClock.Classes.Utils.ExtensionMethods;
 
 namespace BerlinClock.Classes
 {
@@ -15,7 +16,7 @@ namespace BerlinClock.Classes
             StringBuilder sb2 = new StringBuilder();
 
             for (int i = 1; i < 12; i++)
-                sb2.Append(i <= numberTopMinutesLamps ? GetMinuteLampColour(i) : EnumExtensions.GetDescription(StatusLampEnum.OFF));
+                sb2.Append(i <= numberTopMinutesLamps ? GetMinuteLampColour(i) : StatusLampEnum.OFF.GetDescription());
 
             sb.AppendLine(sb2.ToString());
             sb.Append(LampRow.GetLampRow(4, numberBottomMinutesLamps, StatusLampEnum.YELLOW));
@@ -25,8 +26,8 @@ namespace BerlinClock.Classes
         private string GetMinuteLampColour(int index)
         {
             return index % 3 == 0 ?
-                EnumExtensions.GetDescription(StatusLampEnum.RED) :
-                EnumExtensions.GetDescription(StatusLampEnum.YELLOW);
+                StatusLampEnum.RED.GetDescription() :
+                StatusLampEnum.YELLOW.GetDescription();
         }
     }
 }

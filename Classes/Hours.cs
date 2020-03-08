@@ -1,5 +1,5 @@
 ﻿using BerlinClock.Classes.Interfaces;
-using BerlinClock.Classes.Utils;
+using BerlinClock.Classes.Utils.BerlinClockHelpers;
 using System.Text;
 
 namespace BerlinClock.Classes

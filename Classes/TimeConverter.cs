@@ -1,6 +1,6 @@
 ﻿using BerlinClock.Classes;
 using BerlinClock.Classes.Interfaces;
-using BerlinClock.Classes.Utils;
+using BerlinClock.Classes.Utils.ExtensionMethods;
 using BerlinClock.Interfaces;
 using System.Text;
 

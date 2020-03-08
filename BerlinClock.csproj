@@ -57,10 +57,10 @@
     <Compile Include="Classes\Minutes.cs" />
     <Compile Include="Classes\Seconds.cs" />
     <Compile Include="Classes\StatusLampEnum.cs" />
-    <Compile Include="Classes\Utils\DateTimeExtensions.cs" />
-    <Compile Include="Classes\Utils\EnumExtensions.cs" />
-    <Compile Include="Classes\Utils\LampRow.cs" />
-    <Compile Include="Classes\Utils\StringExtensions.cs" />
+    <Compile Include="Classes\Utils\ExtensionMethods\DateTimeExtensions.cs" />
+    <Compile Include="Classes\Utils\ExtensionMethods\EnumExtensions.cs" />
+    <Compile Include="Classes\Utils\BerlinClockHelpers\LampRow.cs" />
+    <Compile Include="Classes\Utils\ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
       <AutoGen>True</AutoGen>

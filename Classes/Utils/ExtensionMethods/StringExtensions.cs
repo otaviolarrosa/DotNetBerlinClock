@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BerlinClock.Classes.Utils
+namespace BerlinClock.Classes.Utils.ExtensionMethods
 {
     public static class StringExtensions
     {
