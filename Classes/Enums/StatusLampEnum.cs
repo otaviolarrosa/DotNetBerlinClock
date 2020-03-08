@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace BerlinClock.Classes
+namespace BerlinClock.Classes.Enums
 {
     public enum StatusLampEnum
     {

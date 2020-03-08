@@ -1,4 +1,6 @@
-﻿using BerlinClock.Classes.Interfaces;
+﻿using BerlinClock.Classes.Enums;
+using BerlinClock.Classes.Interfaces;
+using BerlinClock.Classes.Utils.ExtensionMethods;
 
 namespace BerlinClock.Classes
 {
@@ -6,7 +8,7 @@ namespace BerlinClock.Classes
     {
         public string CalculateSeconds(int seconds)
         {
-            return seconds % 2 == 0 ? "Y" : "O";
+            return seconds % 2 == 0 ? StatusLampEnum.YELLOW.GetDescription() : StatusLampEnum.OFF.GetDescription();
         }
     }
 }

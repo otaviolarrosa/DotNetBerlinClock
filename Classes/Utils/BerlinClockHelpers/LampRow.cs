@@ -1,5 +1,5 @@
-﻿using BerlinClock.Classes.Utils.ExtensionMethods;
-using System.Net.NetworkInformation;
+﻿using BerlinClock.Classes.Enums;
+using BerlinClock.Classes.Utils.ExtensionMethods;
 using System.Text;
 
 namespace BerlinClock.Classes.Utils.BerlinClockHelpers

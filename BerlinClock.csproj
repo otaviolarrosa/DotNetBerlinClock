@@ -56,7 +56,7 @@
     <Compile Include="Classes\Interfaces\ISeconds.cs" />
     <Compile Include="Classes\Minutes.cs" />
     <Compile Include="Classes\Seconds.cs" />
-    <Compile Include="Classes\StatusLampEnum.cs" />
+    <Compile Include="Classes\Enums\StatusLampEnum.cs" />
     <Compile Include="Classes\Utils\ExtensionMethods\DateTimeExtensions.cs" />
     <Compile Include="Classes\Utils\ExtensionMethods\EnumExtensions.cs" />
     <Compile Include="Classes\Utils\BerlinClockHelpers\LampRow.cs" />
